@@ -1,0 +1,32 @@
+@import "/src/globals.scss";
+
+h1,
+h2,
+h3 {
+  background-color: $lightBlue;
+  background-clip: text;
+  background-image: linear-gradient(90deg, $lightGreen, $lightBlue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+
+  &.s {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  
+  &.m {
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  &.l {
+    font-size: 39px;
+    line-height: 46px;
+    letter-spacing: 1.5px;
+  }
+}
+
+
+
+

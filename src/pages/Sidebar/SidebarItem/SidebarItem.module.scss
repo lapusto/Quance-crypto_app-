@@ -1,0 +1,24 @@
+@import "globals.scss";
+
+.sidebarItem {
+  display: flex;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 500;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: $greyText;
+  text-transform: capitalize;
+  border-right: 1px solid $darkGreyBorder;
+  max-width: 260px;
+  margin-left: 200px;
+  cursor: pointer;
+  background: none;
+}
+
+.active {
+    color: $lightGreyText;
+  .logo * {
+    fill: url(#paint1_linear_564_7275);
+    stroke: url(#paint1_linear_564_7275);
+  }
+}

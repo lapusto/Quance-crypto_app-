@@ -1,0 +1,10 @@
+<svg width="20" height="20" fill="#333333" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+    <linearGradient id="myGradient" gradientTransform="rotate(90)">
+      <stop offset="0%"  stop-color="#A1E342" />
+      <stop offset="100%" stop-color="#1FEDF6" />
+    </linearGradient>
+  </defs>
+<path d="M0.399902 10C0.399902 4.69809 4.69797 0.400024 9.9999 0.400024V10H19.5999C19.5999 15.302 15.3018 19.6 9.9999 19.6C4.69797 19.6 0.399902 15.302 0.399902 10Z"/>
+<path d="M12.3999 0.702368C15.7734 1.57065 18.4293 4.22655 19.2975 7.60008H12.3999V0.702368Z" />
+</svg>
