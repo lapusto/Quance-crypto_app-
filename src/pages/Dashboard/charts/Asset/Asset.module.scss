@@ -1,0 +1,35 @@
+@import "globals.scss";
+
+.assetHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-select__control {
+  font-size: 14px !important;
+  font-family: Zen Kaku Gothic Antique !important;
+  font-weight: 500 !important;
+  width: 164px !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: 0 0 1px 1px #333333 !important;
+}
+
+.custom-select__single-value {
+  color: #bdbdbd !important;
+}
+
+.custom-select__menu {
+  background-color: transparent !important;
+  font-size: 14px !important;
+  font-family: Zen Kaku Gothic Antique !important;
+}
+
+.custom-select__option {
+  background-color: transparent !important;
+  cursor: pointer !important;
+}
+
+.custom-select__option--is-focused {
+  background-color: #1f1f1f !important ;
+}

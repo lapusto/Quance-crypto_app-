@@ -2,21 +2,41 @@
 
 .sidebarItem {
   display: flex;
+  align-items: center;
+  max-width: 60%;
+  height: 48px;
+  padding: 0px 40px 0 26px;
+  margin-bottom: 8px;
   font-size: 16px;
   line-height: 23px;
   font-weight: 500;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   color: $greyText;
   text-transform: capitalize;
-  border-right: 1px solid $darkGreyBorder;
-  max-width: 260px;
-  margin-left: 200px;
   cursor: pointer;
-  background: none;
+border-radius: 0 8px 8px 0;
+
+ 
+
+  .logo {
+    width: 22px;
+    margin-top: 4px;
+    margin-right: 28px;
+  }
+
+  .divider {
+    height: 20px;
+    border: 0.5px solid #4f4f4f;
+    color: aliceblue;
+    margin-right: 24px;
+  }
 }
 
 .active {
-    color: $lightGreyText;
+  color: $lightGreyText;
+  background-image: url("../../../images/sidebar/line.svg");
+  background-repeat: no-repeat;
+  background-color: $darkGrey;
   .logo * {
     fill: url(#paint1_linear_564_7275);
     stroke: url(#paint1_linear_564_7275);

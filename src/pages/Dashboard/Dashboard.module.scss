@@ -1,0 +1,38 @@
+@import "globals.scss";
+
+.dashboardWrapper {
+    padding: 0 26px 46px;
+  
+
+    .graphs {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(6, 170px);
+        grid-auto-rows: 312px;
+
+        &>div {
+            border: 1px solid $darkGreyBorder;
+            border-radius: 24px;
+            padding: 20px 26px;
+
+            h6 {
+                font-family: Zen Kaku Gothic Antique, sans-serif;
+                color: $greyChartTitle;
+                font-weight: 700;
+                font-size: 20px;
+                margin: 0;
+            }
+        }
+     
+    }
+
+    .one, .two {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+     .five {
+        grid-column: span 2;
+    }
+       
+    }

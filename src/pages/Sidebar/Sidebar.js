@@ -6,6 +6,7 @@ import { ReactComponent as Settings }  from "images/sidebar/settings.svg";
 import { ReactComponent as Algorithms }  from "images/sidebar/algorithms.svg";
 import { ReactComponent as Support }  from "images/sidebar/support.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const menu = [
@@ -34,14 +35,18 @@ const Sidebar = () => {
   const [active, setActive] = useState(menu[0].name);
 
   return (
-    <div className={styles.Sidebar}>
+    <div className={styles.sidebar}>
       {menu.map((item, index) => (
-        <SidebarItem
+        <Link to={
+          index === 0 ? "/" : `/${item.name}`}>
+         <SidebarItem
           item={item}
           key={`sidebar-${index}`}
           onClick={() => setActive(item.name)}
           isActive={active == item.name}
         />
+        </Link>
+       
       ))}
     </div>
   );

@@ -1,0 +1,13 @@
+@import "globals.scss";
+
+.sidebar {
+    width: 13%;
+    padding-left: 190px;
+    padding-top: 28px;
+    text-align: right;
+    border-right: 1px solid $darkGreyBorder;
+     
+    a {
+        text-decoration: none;
+    }
+}
