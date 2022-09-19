@@ -38,7 +38,8 @@ const Sidebar = () => {
     <div className={styles.sidebar}>
       {menu.map((item, index) => (
         <Link to={
-          index === 0 ? "/" : `/${item.name}`}>
+          index === 0 ? "/" : `/${item.name}`}
+          key={`sidebar-${index}`}>
          <SidebarItem
           item={item}
           key={`sidebar-${index}`}

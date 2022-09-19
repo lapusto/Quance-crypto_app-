@@ -3,7 +3,6 @@ import cn from "classnames";
 import { ReactComponent as Logo } from "images/sidebar/dashboard.svg";
 
 export const SidebarItem = ({ item, onClick, isActive }) => {
-  console.log(item);
 
   return (
     <div
