@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 import gradient from "chartjs-plugin-gradient";
 import Select from "react-select";
-import styles from "./Asset.module.scss";
+import styles from "./AssetValue.module.scss";
 import {
   Chart as ChartJS,
   Title,
@@ -28,7 +28,7 @@ ChartJS.register(
   gradient
 );
 
-export const Asset = () => {
+export const AssetValue = () => {
 
   const [timePeriod, setTimePeriod] = useState(3);
 

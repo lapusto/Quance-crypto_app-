@@ -1,5 +1,7 @@
 import Title from "components/Title/Title"
-import { Asset } from "./charts/Asset/Asset"
+import { Allocation } from "./charts/Allocation/Allocation"
+import { AssetValue } from "./charts/AssetValue/AssetValue"
+
 import styles from "./Dashboard.module.scss"
 
 export const Dashboard = () => {
@@ -9,9 +11,11 @@ export const Dashboard = () => {
            <Title size="s">My portfolio</Title>
            <div className={styles.graphs}>
             <div className={styles.one}>
-                <Asset/>
+                <AssetValue/>
             </div>
-            <div  className={styles.two}>2</div>
+            <div  className={styles.two}>
+                <Allocation/>
+            </div>
             <div  className={styles.five}>3</div>
             <div  className={styles.five}>4</div>
             <div  className={styles.five}>5</div>
